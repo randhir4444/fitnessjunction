@@ -1,0 +1,180 @@
+<html>
+<HEAD>
+<STYLE>
+A{ text-decoration:NONE; }
+#HEADER
+{
+		padding: 10PX;
+	color: WHITE;
+	width: 100%;
+	height: 30%;
+	background-color: darkred;
+	text-align: center;
+}
+#name
+{
+		padding: 10PX;
+	color: WHITE;
+	width: 100%;
+	height: %;
+	background-color: darkred;
+	text-align: center;
+}
+.upupFOOTER
+{
+
+	width:100%;
+	margin-top: 10px;
+	padding: 5PX;
+	color: WHITE;
+	height: 400px;
+	background-color: pitchred;
+	text-align: center;
+}
+.upFOOTER
+{
+
+	width:100%;
+	margin-top: 10px;
+	padding: 5PX;
+	color: WHITE;
+	height: 400px;
+	background-color: pitchred;
+	text-align: center;
+}
+.FOOTER
+{
+
+	position: absolute;
+	width:93%;
+	margin-top: -120px;
+	padding: 50PX;
+	color: WHITE;
+	background-color: grey;
+	text-align: center;
+}
+.ARTICAL
+{
+
+margin-top:-13px;
+	float: right;
+	width: 21%;
+
+}
+.NAV
+{
+	background: grey;
+	margin-top: 5px;
+	border:  1PX SOLID BLACK; 
+	float: left;
+	width: 18%;
+	height: 560px;
+    font-color: black;
+}
+#id2
+{
+	text-align: center;
+margin-top:5px;
+margin-left:19.2%;
+border: 10px solid grey;
+width:57%;
+height:541.5px;
+}
+</STYLE>
+</HEAD>
+<BODY BGCOLOR=darkred>
+<a id="top"></a>
+<a href="#bottom">GO TO BOTTOM</a>
+	<DIV ID="HEADER">
+	<img src="C:\Users\R00T\Desktop\R00T\02.jpg" width="1450" height="250">
+	</DIV>
+	<div id="name">
+	<FONT SIZE="330" TEXT-ALIGN="RIGHT" color="black"><P>SAMARPAN BLOOD BANK</P></FONT></div>
+	<DIV CLASS="NAV">
+		<UL TYPE="SQUARE">
+			<LI><A HREF="file:///C:/Users/R00T/Desktop/R00T/blood2.htm"><font size="5" color="black">HOME</font></A></LI><BR>
+         <LI><A HREF="C:\Users\R00T\Desktop\R00T\BLOOD BANK\REGISTERATION.html"><font size="5" color="black">REGISTERATION</font></A></LI><BR>
+            <LI><A HREF="C:\Users\R00T\Desktop\R00T\BLOOD BANK\BLOOD BANK.html"><font size="5" color="black">BLOOD BANKS</font></A></LI><BR>
+            <LI><A HREF="C:\Users\R00T\Desktop\R00T\BLOOD BANK\feedback form blood donation.html"><font size="5" color="black">FEEDBACK</font></A></LI><BR>
+            <li><a href="C:\Users\R00T\Desktop\R00T\BLOOD BANK\CURRENT EVENTS.HTML"><font size="5" color="black">CURRENT EVENTS</font></a></li><BR>
+            <LI><A HREF="C:\Users\R00T\Desktop\R00T\BLOOD BANK\about usnew.html"><font size="5" color="black">ABOUT US</font></A></LI><BR>
+            <LI><A HREF="C:\Users\R00T\Desktop\R00T\BLOOD BANK\CONTACT US.html"><font size="5" color="black">CONTACT US</font></A></LI><BR>
+		</UL></font>
+	</DIV>
+	<DIV CLASS="ARTICAL"></br>
+	<form type="method">
+<table bgcolor="grey" height="250" width="80" cellpadding="5" bordercolor="grey">
+<tr>
+<th  align="left" id="th1" bgcolor="grey" width="250">MEMBER LOGIN</th>
+</tr>
+<tr>
+<td>
+<table bgcolor="grey" height="150" width="250">
+<tr>
+<td colspan="5"><b>USER ID:</b></td>
+<td colspan="10"><input type="text" placeholder="User Id" required=""> </td>
+</tr>
+<tr>
+<td colspan="5"><b>PASSWORD:</b></td>
+<td colspan="10"><input type="password" maxlength="10" placeholder="Password" required=""> </td>
+</tr>
+</table>
+</td></tr>
+<tr>
+<td colspan="10" id="td1"><i>Note:Password is case sensitive</i></td>
+</tr>
+<tr>
+<td colspan="8" align="center"><input type="submit" value="SUBMIT" onsubmit="sub()" url="C:\Users\R00T\Desktop\R00T\BLOOD BANK\log in.html"></td>
+<td colspan="0" align="center"><input type="reset" value="RESET"></td>
+</tr>
+</table>
+</form>
+   <div class="imgsl1" style="max-width:100px">
+    <img class="mySlides" src="C:\Users\R00T\Desktop\R00T\user.jpg"  height="230" width="350">
+  <img class="mySlides" src="C:\Users\R00T\Desktop\R00T\wall_art.jpg"  height="230" width="350">
+  <img class="mySlides" src="C:\Users\R00T\Desktop\R00T\Donate-Blood1.jpg" height="230" width="350">
+  <img class="mySlides" src="C:\Users\R00T\Desktop\R00T\images.jpg"  height="230" width="350">
+  <img class="mySlides" src="C:\Users\R00T\Desktop\R00T\imagesR4XEZC9F.png"  height="230" width="350">
+  <img class="mySlides" src="C:\Users\R00T\Desktop\R00T\SBC-Blood-Drop-Donate-Button.png"  height="230" width="350">
+  <img class="mySlides" src="C:\Users\R00T\Desktop\R00T\user.jpg"  height="230" width="350">
+  <img class="mySlides" src="C:\Users\R00T\Desktop\R00T\wall_art.jpg"  height="230" width="350">
+    </div>
+    <script>
+    var myIndex = 0;
+carousel();
+function carousel() 
+{
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i =0; i<x.length; i++)
+     {
+       x[i].style.display ="none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 1000);
+}
+function sub()
+{
+alert("Data Submitted");
+}
+</script>
+</DIV>
+<div id="id2">
+
+	A Blood Donation Camp was organized at SINGH G Engineering College, Unjha on 16th September 2016. The event was managed by the Social Accountability club ‘Student Cell’ of the college. The Blood Donation Camp was organized in association with Indian Red Cross, Ahmedabad.All the medical support was arranged by the Blood bank Members. College Management,  and Student Volunteers did a commendable job in smooth and successful organization of the event. The event began at 9:30 a.m. with the first blood donation of College’s students. Right from the beginning a number of enthusiastic college students came forward for participating in this noble cause and donate their blood. Apart from students; college staff members have also donated blood during the occasion. Before allowing the donors for bleeding a mandatory medical test was performed to check their various health parameters, like body weight, blood pressure, blood sugar etc. so that the donor may not face any kind of problem due to blood donation. In order to provide maximum care to the health of the donors college management had made arrangement for ample supply of health drinks, breakfast, tea and coffee through out the duration of the camp. To motivate the donors and encourage their participation in the event college management has provided all the donors with donor kit and a special gift. Total 117 units of blood were donated during the camp. Total gift given by the college management to students and staffs during the event was around Rs. 18,000/-. 
+</div>
+ <br>
+ <MARQUEE><P><CENTER><font size="5" color="WHITE">"YOUR DROPLETS OF BLOOD MAY CREATE OCEAN OF HAPPINESS"</font></CENTER></P></MARQUEE>
+ <div id="FOOTER">
+ 	 <div class="upFOOTER">
+ <img src="C:\Users\R00T\Desktop\R00T\Donat-Blood.jpg" height="230px" width="1500px" align="center"></BR>
+
+ </div>
+    <DIV CLASS="FOOTER">COPYRIGHT &COPY;BLOOD BANK
+        <a id="bottom"></a>
+<a href="#top" >GOTO TOP</a></DIV>
+
+    </BODY>
+    </HTML>
